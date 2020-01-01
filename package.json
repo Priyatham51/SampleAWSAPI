@@ -1,0 +1,22 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Priyatham51/SampleAWSAPI.git"
+  },
+  "author": "Priyatham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyatham51/SampleAWSAPI/issues"
+  },
+  "homepage": "https://github.com/Priyatham51/SampleAWSAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
