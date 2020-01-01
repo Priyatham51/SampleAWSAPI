@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-3-86-3-209.compute-1.amazonaws.com',
+      host: 'ec2-54-144-4-153.compute-1.amazonaws.com',
       key: '~/.ssh/Tutorial.pem',
       ref: 'origin/master',
       repo: 'git@github.com:Priyatham51/SampleAWSAPI.git',
