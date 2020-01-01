@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'tutorial-2',
-    script: './SampleAWSAPI/index.js'
+    script: './index.js'
   }],
   deploy: {
     production: {
@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/Tutorial.pem',
       ref: 'origin/master',
       repo: 'git@github.com:Priyatham51/SampleAWSAPI.git',
-      path: '/home/ubuntu/api',
+      path: '/home/ubuntu/tutorial-2',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
